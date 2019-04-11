@@ -19,7 +19,7 @@ public class MiEjercicio {
     int edad = 0;
     String ciudad = "";
     String pais = "";
-    float nota1 = 0;
+    int nota1 = 0;
     float nota2 = 0;
     float promedio = 0;
     System.out.println("Ingrese su nombre");
