@@ -28,10 +28,11 @@ public class EjemplosClase21 {
         nombre = entrada.nextLine();
         System.out.println("Ingrese su apellido");
         apellido = entrada.nextLine();
-        System.out.println("Ingrese su ciudad");
-        ciudad = entrada.nextLine();
         System.out.println("Ingrese su edad");
         edad = entrada.nextInt();
+        entrada.nextLine(); //Limpieza del buffer de entrada de datos
+        System.out.println("Ingrese su ciudad");
+        ciudad = entrada.nextLine();
         System.out.println("Su nombre es: "+nombre +"\n\n\t" 
                 +"Su apellido es: " +apellido +", " +"edad: " +edad +"\n"
         +"Ciudad: " +ciudad);
