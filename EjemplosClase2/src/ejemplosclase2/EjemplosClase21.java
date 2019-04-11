@@ -21,12 +21,19 @@ public class EjemplosClase21 {
         Scanner entrada = new Scanner(System.in);
         String nombre;
         String apellido;
+        String ciudad;
+        int edad;
         
-        System.out.println("Ingrese sus nombres");
+        System.out.println("Ingrese su nombre");
         nombre = entrada.nextLine();
-        System.out.println("Ingrese sus apellidos");
+        System.out.println("Ingrese su apellido");
         apellido = entrada.nextLine();
+        System.out.println("Ingrese su ciudad");
+        ciudad = entrada.nextLine();
+        System.out.println("Ingrese su edad");
+        edad = entrada.nextInt();
         System.out.println("Su nombre es: "+nombre +"\n\n\t" 
-                +"Sus apellidos son: " +apellido);
+                +"Su apellido es: " +apellido +", " +"edad: " +edad +"\n"
+        +"Ciudad: " +ciudad);
     }
 }
