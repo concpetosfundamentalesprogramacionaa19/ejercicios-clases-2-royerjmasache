@@ -39,7 +39,7 @@ public class MiEjercicio {
     nota2 = entrada.nextInt();
     promedio = (nota1 + nota2)/2;
     System.out.printf("Nombre: %s\nSu apellido es: %s\nCiudad: %s\n"
-            + "País: %s\nNota: %s, %s\nPromedio: %s", nombre, apellido, ciudad, pais, nota1, nota2, promedio);
-    
+            + "País: %s\nNota: %s, %s\nPromedio: %s"
+            , nombre, apellido, ciudad, pais, nota1, nota2, promedio);
     }
 }
